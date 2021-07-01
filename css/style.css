@@ -103,7 +103,7 @@ h2 {
 .s2 h2 {
 	font-size: 4rem; /* 64px */
 	font-weight: 700;
-	background: linear-gradient(to right, #960218, #243664);
+	background: linear-gradient(to right, #960218, #243664, #960218);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
