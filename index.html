@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Let's Vespa - Fullpage Animations</title>
+	<meta name="author" content="sine_alis">
+	<link rel="stylesheet" href="./css/fullpage.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+	<script>
+		window.addEventListener("load", () => {
+			const preload = document.querySelector(".preload");
+			preload.parentElement.removeChild(preload);
+		});
+	</script>
+</head>
+
+<body>
+	<div class="preload">
+		<span class="loader loader-one"></span>
+	</div>
+
+	<div id="fullpage">
+		<section class="section s1">
+			<h1>Let's Vespa!</h1>
+		</section>
+		<section class="section s2">
+			<h2>The fashion of mooving</h2>
+			<div class="description">
+				<p><strong>Vespa’s various models have influenced young fashion designers
+						with its youthful spirit.</strong> Collaborations with designers who share Vespa’s core tenets
+					of originality and out-the-box mentalityhave resulted in successful collaborations
+					that represent carefree fun.
+				</p>
+			</div>
+			<img src="./img/vespa_blue.png" class="vespa" alt="Vespa Primavera" title="Vespa Primavera">
+		</section>
+		<section class="section s3">
+			<h2>Vespa, women, and colour</h2>
+			<img src="./img/vespa_white.png" class="vespa" alt="Vespa GTS Super" title="Vespa GTS Super">
+			<div class="description">
+				<p><strong>Vespa, women, and colour</strong> are three elements that go together. The 1980s, more than
+					any
+					other decade, saw women become the main riders of Vespa. As part of a larger revolution, women took
+					charge of
+					their fashion by using clothing to express themselves through outfits with super-charged
+					colours. This was the decade when women’s fashion aimed to provoke and turn heads.
+				</p>
+			</div>
+		</section>
+		<section class="section s4">
+			<h2>The start of an adventure</h2>
+			<div class="description">
+				<p>To express what makes Vespa so <strong>revolutionary and innovative</strong>, requires beginning at
+					the origin of the
+					brand. Focusing on the year 1946 – when Vespa was founded – reveals all the
+					elements which continue
+					to make this scooter an icon of style.
+				</p>
+				<p><strong>Vespa’s creator, Corradino d’Ascanio</strong>, was an ingenious designer with a
+					technology-first mentality who blended creativity and mechanical engineering into a functional,
+					aerodynamic and simple vehicle.
+				</p>
+			</div>
+			<img src="./img/vespa_black.png" class="vespa" alt="Vespa Sprint" title="Vespa Sprint">
+		</section>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+		integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="./js/fullpage.min.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
