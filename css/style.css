@@ -52,7 +52,7 @@ body {
 	100% {transform: rotate(360deg);}
 }
 img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 .section {
@@ -93,9 +93,11 @@ h2 {
 	font-weight: 500;
 	line-height: 2.125rem; /* 34px */
 }
-.s1 {
-	background-image: url('../img/bg.jpg');
-	background-size: cover;
+.s1 video {
+	width: 100%;
+	height: 100vh;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 .s2 {
 	background: linear-gradient(to right, #243664, #cdcdcd);
